@@ -26,7 +26,7 @@ export default function Home() {
     {
       num: "01",
       title: "Elite Carrier Network",
-      body: "Safety Harbour Insurance partners only with the industry’s highest-rated carriers. We understand the weight of your family’s future, so we only work with providers who share our commitment to excellence.",
+      body: "Legacy Insurance partners only with the industry’s highest-rated carriers. We understand the weight of your family’s future, so we only work with providers who share our commitment to excellence.",
     },
     {
       num: "02",
@@ -36,12 +36,12 @@ export default function Home() {
     {
       num: "03",
       title: "Coast-to-Coast Support",
-      body: "We are proud to serve families across all 50 states. No matter where you call home, a Safety Harbour Insurance agent is nearby to provide personalized, local expertise.",
+      body: "We are proud to serve families across all 50 states. No matter where you call home, a Legacy Insurance agent is nearby to provide personalized, local expertise.",
     },
     {
       num: "04",
       title: "Tailored Solutions",
-      body: "Safety Harbour Insurance is more than just a marketing organization. We are your advocates, matching you with the specific carrier and plan that fits your unique life situation perfectly.",
+      body: "Legacy Insurance is more than just a marketing organization. We are your advocates, matching you with the specific carrier and plan that fits your unique life situation perfectly.",
     },
   ];
 
@@ -71,27 +71,27 @@ export default function Home() {
   const testimonials = [
     {
       name: "Marcus Thorne",
-      quote: "Choosing Safety Harbour Insurance was the best decision I’ve made for my family’s future. I wanted to ensure my children wouldn't be burdened with unexpected costs later on, and the team helped me craft a final expense plan that was both budget-friendly and thorough. They took the time to explain the 'why' behind every recommendation. I finally feel like my Safety Harbour is secure.",
+      quote: "Choosing Legacy Insurance was the best decision I’ve made for my family’s future. I wanted to ensure my children wouldn't be burdened with unexpected costs later on, and the team helped me craft a final expense plan that was both budget-friendly and thorough. They took the time to explain the 'why' behind every recommendation. I finally feel like my Legacy is secure.",
       stars: "★★★★★"
     },
     {
       name: "Elena Rodriguez",
-      quote: "The team at Safety Harbour Insurance is exceptional. I was looking for mortgage protection and didn't know where to start. They treated me like a person, not a policy number, and walked me through the coverage that ensures my family stays in our home no matter what happens. It’s rare to find agents this dedicated and accessible.",
+      quote: "The team at Legacy Insurance is exceptional. I was looking for mortgage protection and didn't know where to start. They treated me like a person, not a policy number, and walked me through the coverage that ensures my family stays in our home no matter what happens. It’s rare to find agents this dedicated and accessible.",
       stars: "★★★★★"
     },
     {
       name: "David Chen",
-      quote: "I can’t recommend Safety Harbour Insurance enough. There were no high-pressure sales tactics—just honest, clear advice. They helped me find a policy that fits my fixed income perfectly. The peace of mind I have now is priceless.",
+      quote: "I can’t recommend Legacy Insurance enough. There were no high-pressure sales tactics—just honest, clear advice. They helped me find a policy that fits my fixed income perfectly. The peace of mind I have now is priceless.",
       stars: "★★★★★"
     },
     {
       name: "Sarah Jenkins",
-      quote: "Working with Safety Harbour Insurance was a breath of fresh air. They stripped away all the confusing insurance jargon and made everything easy to understand. I now have a policy I actually trust, and I know my family is on solid ground. They truly are the team to turn to for straightforward, honest service.",
+      quote: "Working with Legacy Insurance was a breath of fresh air. They stripped away all the confusing insurance jargon and made everything easy to understand. I now have a policy I actually trust, and I know my family is on solid ground. They truly are the team to turn to for straightforward, honest service.",
       stars: "★★★★★"
     },
     {
       name: "Gregory Banks",
-      quote: "From the first phone call, I knew Safety Harbour Insurance was different. They didn't just sell me a policy; they listened to my concerns about my family’s long-term growth and helped me set up a plan that protects us today and builds for tomorrow. It’s a relief to work with professionals who prioritize my family’s goals.",
+      quote: "From the first phone call, I knew Legacy Insurance was different. They didn't just sell me a policy; they listened to my concerns about my family’s long-term growth and helped me set up a plan that protects us today and builds for tomorrow. It’s a relief to work with professionals who prioritize my family’s goals.",
       stars: "★★★★★"
     }
   ];
@@ -140,7 +140,7 @@ export default function Home() {
         <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 48px", display: "flex", alignItems: "center", justifyContent: "space-between", height: "100px" }}>
           <a href="#" style={{ textDecoration: "none" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo2.png" alt="Safety Harbour Insurance" style={{ height: "80px", width: "auto" }} />
+            <img src="/logo2.png" alt="Legacy Insurance" style={{ height: "80px", width: "auto" }} />
           </a>
           <div className="nav-links" style={{ display: "flex", gap: "36px", alignItems: "center" }}>
             {["Home", "Get A Quote", "Our Agents", "Join the Team", "Insurance News"].map((item, i) => (
@@ -175,10 +175,10 @@ export default function Home() {
         
         <div style={{ maxWidth: "1000px", margin: "0 auto", padding: "40px 48px 12px", width: "100%", position: "relative", zIndex: 2, textAlign: "center" }}>
           <h1 style={{ fontSize: "clamp(44px, 6vw, 84px)", fontWeight: 900, color: DARK, lineHeight: 1.06, marginBottom: "20px", textTransform: "uppercase", letterSpacing: "-0.02em" }}>
-            SAFETY HARBOUR <span style={{ color: PRIMARY }}>INSURANCE</span>
+            LEGACY <span style={{ color: PRIMARY }}>INSURANCE</span>
           </h1>
           <p style={{ color: "#3d5166", fontSize: "clamp(18px, 1.8vw, 22px)", lineHeight: 1.6, maxWidth: "680px", margin: "0 auto 36px", fontWeight: 500 }}>
-            Securing Your Future, Protecting Your Safety Harbour.
+            Securing Your Future, Protecting Your Legacy.
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginBottom: "40px" }}>
              <a href="#quote" style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: `linear-gradient(135deg, ${ACCENT}, #8b1818)`, color: "white", padding: "18px 42px", borderRadius: "50px", fontSize: "16px", fontWeight: 700, textDecoration: "none", boxShadow: `0 8px 24px ${ACCENT}44`, transition: "all 0.3s" }}
@@ -216,7 +216,7 @@ export default function Home() {
           {/* Left — image */}
           <div style={{ position: "relative", borderRadius: "20px", overflow: "hidden", boxShadow: "0 20px 60px rgba(13,95,132,0.15)", height: "100%", minHeight: "550px" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/core-value.jpeg" alt="Safety Harbour Insurance Core Value" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", top: 0, left: 0 }} />
+            <img src="/core-value.jpeg" alt="Legacy Insurance Core Value" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", top: 0, left: 0 }} />
             {/* Accent block */}
             <div style={{ position: "absolute", bottom: "-1px", left: 0, right: 0, background: `linear-gradient(to top, ${PRIMARY}ee, transparent)`, height: "120px" }} />
             <div style={{ position: "absolute", bottom: "28px", left: "28px", right: "28px", color: "white" }}>
@@ -355,7 +355,7 @@ export default function Home() {
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 48px", textAlign: "center" }}>
           <div style={{ fontSize: "12px", fontWeight: 800, color: ACCENT, letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: "12px" }}>How Can We Help You?</div>
           <h2 style={{ fontSize: "clamp(32px,3.5vw,48px)", fontWeight: 900, color: DARK, letterSpacing: "-0.02em", marginBottom: "48px" }}>
-             Let’s Build Your <span style={{ color: PRIMARY }}>Safety Harbour</span>
+             Let’s Build Your <span style={{ color: PRIMARY }}>Legacy</span>
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "32px", maxWidth: "800px", margin: "0 auto" }}>
             <div style={{ background: "white", borderRadius: "24px", padding: "48px", boxShadow: "0 12px 40px rgba(13,95,132,0.08)", border: "1px solid #e2ecf4" }}>
@@ -388,7 +388,7 @@ export default function Home() {
               We Partner with the Nation’s <span style={{ color: PRIMARY }}>Top Insurance Carriers.</span>
             </h2>
             <p style={{ color: "#5a7080", fontSize: "16px", lineHeight: 1.7, maxWidth: "700px", margin: "0 auto" }}>
-              From IULs to Fixed Indexed Annuities, Safety Harbour Insurance proudly collaborates with the industry's most trusted carriers. This allows our agents to find the best product at the best price for your specific needs.
+              From IULs to Fixed Indexed Annuities, Legacy Insurance proudly collaborates with the industry's most trusted carriers. This allows our agents to find the best product at the best price for your specific needs.
             </p>
           </div>
           {/* Carrier logo grid */}
@@ -473,9 +473,9 @@ export default function Home() {
             {/* Brand col */}
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo2.png" alt="Safety Harbour Insurance" style={{ height: "72px", marginBottom: "24px", filter: "brightness(0) invert(1)", opacity: 0.9 }} />
+              <img src="/logo2.png" alt="Legacy Insurance" style={{ height: "72px", marginBottom: "24px", filter: "brightness(0) invert(1)", opacity: 0.9 }} />
               <p style={{ color: "rgba(255,255,255,0.65)", fontSize: "14px", lineHeight: 1.8, maxWidth: "340px" }}>
-                At Safety Harbour Insurance, we are dedicated to helping you protect what matters most. Our mission is to ensure your family's future is secure through personalized, expert insurance solutions.
+                At Legacy Insurance, we are dedicated to helping you protect what matters most. Our mission is to ensure your family's future is secure through personalized, expert insurance solutions.
               </p>
               {/* Social icons */}
               <div style={{ display: "flex", gap: "12px", marginTop: "28px" }}>
@@ -528,7 +528,7 @@ export default function Home() {
 
         {/* Copyright bar */}
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.08)", padding: "22px 48px", maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <div style={{ color: "rgba(255,255,255,0.45)", fontSize: "13px" }}>© 2026 Safety Harbour Insurance. All Rights Reserved.</div>
+          <div style={{ color: "rgba(255,255,255,0.45)", fontSize: "13px" }}>© 2026 Legacy Insurance. All Rights Reserved.</div>
           <div style={{ display: "flex", gap: "24px" }}>
             {["Privacy Policy", "Terms of Service"].map(t => (
               <a key={t} href="#" style={{ color: "rgba(255,255,255,0.35)", fontSize: "13px", textDecoration: "none", transition: "color 0.2s" }}
