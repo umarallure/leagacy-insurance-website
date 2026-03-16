@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const PRIMARY = "#0d5f84";
+const PRIMARY = "#1962a1";
 const ACCENT = "#ad1f1f";
 const DARK = "#0a2035";
 
