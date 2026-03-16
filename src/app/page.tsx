@@ -445,7 +445,7 @@ export default function Home() {
             </p>
             <div style={{ display: "flex", gap: "24px", marginTop: "24px", flexWrap: "wrap" }}>
                <div style={{ color: "white", fontSize: "15px", display: "flex", alignItems: "center", gap: "8px" }}>
-                 <span style={{ fontSize: "20px" }}>✉</span> info@safetyharbourinsurance.io
+                 <span style={{ fontSize: "20px" }}>✉</span> info@legacyinsurance.io
                </div>
                <div style={{ color: "white", fontSize: "15px", display: "flex", alignItems: "center", gap: "8px" }}>
                  <span style={{ fontSize: "20px" }}>📞</span> +1 786-233-0773
@@ -456,7 +456,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <a href="mailto:info@safetyharbourinsurance.io" style={{ display: "inline-block", background: "white", color: PRIMARY, padding: "18px 42px", borderRadius: "50px", fontSize: "16px", fontWeight: 800, textDecoration: "none", boxShadow: `0 8px 30px rgba(0,0,0,0.15)`, transition: "all 0.3s" }}
+            <a href="mailto:info@legacyinsurance.io" style={{ display: "inline-block", background: "white", color: PRIMARY, padding: "18px 42px", borderRadius: "50px", fontSize: "16px", fontWeight: 800, textDecoration: "none", boxShadow: `0 8px 30px rgba(0,0,0,0.15)`, transition: "all 0.3s" }}
                onMouseEnter={e => { (e.target as HTMLElement).style.transform = "translateY(-2px)"; }}
                onMouseLeave={e => { (e.target as HTMLElement).style.transform = "translateY(0)"; }}>
               Contact Us
@@ -513,7 +513,7 @@ export default function Home() {
             <div>
               <div style={{ fontSize: "13px", fontWeight: 800, color: "rgba(255,255,255,0.45)", letterSpacing: "0.12em", textTransform: "uppercase", marginBottom: "22px" }}>Contact</div>
               {[
-                { icon: "✉", text: "info@safetyharbourinsurance.io" },
+                { icon: "✉", text: "info@legacyinsurance.io" },
                 { icon: "📞", text: "+1 786-233-0773" },
                 { icon: "📍", text: "3350 Virginia St, Coconut Grove, Miami, FL 33133" },
               ].map((item) => (
